@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Tecnología Ayacucho_Store</title>
+    
+    <!-- Enlace del archivo CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="h3">Tienda de Tecnología Ayacucho_Store</h1>
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Inicio</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Productos</a></li>  <!--Etiquetas de Navegación-->
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Contacto</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-white">Carrito</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <img src="ImágenesL4DW/TiendaFísica.jpg" class="d-block w-90" alt="TiendaFísica">  <!--Adjunto una imagen física de presentación para la tienda-->
+    
+    <!-- Carrusel de Productos Destacados -->
+<section class="container my-5">
+    <div id="carouselProductos" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="ImágenesL4DW/laptop-mac.jpg" class="d-block w-60" alt="laptop-mac">
+            </div>
+            <div class="carousel-item">
+                <img src="ImágenesL4DW/mousegamer.jpg" class="d-block w-40" alt="Mouse Gamer">
+            </div>
+            <div class="carousel-item">
+                <img src="ImágenesL4DW/Smartphone1.jpg" class="d-block w-60" alt="Smartphone1">
+            </div>
+            <div class="carousel-item">
+                <img src="ImágenesL4DW/Smartwatch.jpg" class="d-block w-60" alt="Smartwatch">
+            </div>
+            <div class="carousel-item">
+                <img src="ImágenesL4DW/AudífonoInalámbrico.jpg" class="d-block w-2" alt="Audífonos Bluetooth">
+            </div>
+            <div class="carousel-item">
+                <img src="ImágenesL4DW/CargadorCelular.jpg" class="d-block w-3" alt="Cargador de Celular">
+            </div>
+            <div class="carousel-item">
+                <img src="ImágenesL4DW/TecladoMecanico.jpg" class="d-block w-90" alt="Teclado Mecánico">
+            </div>
+            <div class="carousel-item">
+                <img src="ImágenesL4DW/mousegamer.jpg" class="d-block w-60" alt="Mouse Gamer">
+            </div>
+        </div>
+
+        <!-- Controles  Para el carrusel de productos -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductos" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselProductos" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+</section>
+
+    <!-- Grilla de Productos -->
+    <section class="container my-5">
+        <div class="row">
+            <!-- Producto 1: Laptops Gamers -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="ImágenesL4DW/laptopGamer.jpg" class="card-img-top" alt="laptopGamer">
+                    <div class="card-body">
+                        <h5 class="card-title">Laptops Gamer</h5>
+                        <p class="card-text">Potente laptop gamer con la última tecnología.</p>
+                        <p class="card-text"><strong>Precio: $1,200.00</strong></p>
+                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 2: Smartwatchs -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="ImágenesL4DW/Smartwachts.jpg" class="card-img-top" alt="Smartwachts">
+                    <div class="card-body">
+                        <h5 class="card-title">Smartwatchs</h5>
+                        <p class="card-text">Reloj inteligente con monitoreo de salud y notificaciones.</p>
+                        <p class="card-text"><strong>Precio: S/.150.00</strong></p>
+                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 3: Audífonos Bluetooth -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="ImágenesL4DW/Audífono1.jpg" class="card-img-top" alt="Audífono1">
+                    <div class="card-body">
+                        <h5 class="card-title">Audífonos Bluetooth</h5>
+                        <p class="card-text">Audífonos inalámbricos con sonido de alta calidad.</p>
+                        <p class="card-text"><strong>Precio: S/.190.00</strong></p>
+                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 4: Cargadores de Celular -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="ImágenesL4DW/Cargadores.jpg" class="card-img-top" alt="Cargadores">
+                    <div class="card-body">
+                        <h5 class="card-title">Cargadores de Celular</h5>
+                        <p class="card-text">Cargador rápido compatible con múltiples dispositivos.</p>
+                        <p class="card-text"><strong>Precio: S/.70.00</strong></p>
+                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 4: Tablets-->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="ImágenesL4DW/Tablets.jpg" class="card-img-top" alt="Tablets">
+                    <div class="card-body">
+                        <h5 class="card-title">Tablets</h5>
+                        <p class="card-text">Tablets de diferentes marcas para un buen desempeño.</p>
+                        <p class="card-text"><strong>Precio: S/.800.00</strong></p>
+                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 4: Estuches para Laptops -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="ImágenesL4DW/StuchesLaptops.jpg" class="card-img-top" alt="StuchesLaptops">
+                    <div class="card-body">
+                        <h5 class="card-title">Estuches para Laptops</h5>
+                        <p class="card-text">Novedosos y de diferentes colores para todos los dispostivos laptops.</p>
+                        <p class="card-text"><strong>Precio: S/.30.00</strong></p>
+                        <a href="#" class="btn btn-primary">Agregar al Carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Y demás productos en stock -->
+        </div>
+    </section>
+    <h3 Ver más ofertas en Stock></h3>
+    <!-- Pie de Página -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Tienda de Tecnología. Todos los derechos reservados.</p>
+        <p>Síguenos en <a href="#" class="text-white">Facebook</a>, <a href="#" class="text-white">Twitter</a>, <a href="#" class="text-white">Instagram</a></p>
+    </footer>
+
+    <!-- Enlace a los archivos JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
